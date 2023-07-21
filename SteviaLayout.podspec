@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/freshOS/Stevia"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = 'S4cha'
-  s.source           = { :git => "https://github.com/freshOS/Stevia.git",
-                         :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/myrealtrip/Stevia.git",
+                         :branch => "1.0.0" }
   s.social_media_url = 'https://twitter.com/sachadso'
   s.source_files     = "Sources/Stevia/*.swift"
   s.ios.deployment_target = "9"
